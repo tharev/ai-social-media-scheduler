@@ -1,0 +1,25 @@
+# AI Social Media Scheduler - Python Dependencies
+# ==============================================
+# Core dependencies for AI-powered social media scheduling platform
+
+# === CORE FLASK APPLICATION ===
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+Flask-Login==0.6.3
+Flask-WTF==1.1.1
+Flask-CORS==4.0.0
+Flask-Migrate==4.0.5
+WTForms==3.0.1
+
+# === DATABASE ===
+SQLAlchemy==2.0.21
+psycopg2-binary==2.9.7
+redis==4.6.0
+
+# === AI & CONTENT GENERATION ===
+openai==0.28.1
+transformers==4.33.2
+torch==2.0.1
+nltk==3.8.1
+spacy==3.6.1
+textblob==0.17.1
